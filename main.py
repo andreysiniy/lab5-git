@@ -42,7 +42,7 @@ def take_while(collection, predicate):
         if not predicate(element):
             break
         result.append(element)
-    return result
+    return result + [1]
 
 
 def take_each(collection, n):
